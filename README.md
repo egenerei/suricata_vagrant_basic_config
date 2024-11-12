@@ -22,8 +22,8 @@ This repository provides configuration files and a `Vagrantfile` for setting up 
 Clone this repository to your local machine:
 
 ```bash
-git clone <repository-url>
-cd <repository-folder>
+git clone https://github.com/egenerei/suricata_vagrant_basic_config.git
+cd suricata_vagrant_basic_config
 ```
 
 ### 2. Start the Vagrant Environment
