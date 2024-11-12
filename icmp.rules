@@ -1,0 +1,7 @@
+alert icmp any any -> any any (msg:"ICMP Echo Request Detected"; itype:8; sid:100001; rev:1;)
+alert icmp any any -> any any (msg:"ICMP Echo Reply Detected"; itype:0; sid:100002; rev:1;)
+alert icmp any any -> any any (msg:"ICMP Redirect Message Detected"; itype:5; sid:100004; rev:1;)
+alert icmp any any -> any any (msg:"ICMP Time Exceeded Detected - Possible Traceroute"; itype:11; sid:100005; rev:1;)
+alert icmp any any -> any any (msg:"ICMP Parameter Problem Detected"; itype:12; sid:100006; rev:1;)
+alert icmp any any -> any any (msg:"ICMP Destination Unreachable Detected"; itype:3; sid:100003; rev:1;)
+
